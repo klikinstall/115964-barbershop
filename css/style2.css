@@ -87,13 +87,41 @@ p {
     margin-bottom:18px;
     font-size: 30px;
 }
+.m-header {
+    margin-bottom: 48px;
+}
 .m-header li {
     display:inline-block;
     vertical-align: top;
+    outline: 1px solid red;
+    margin-right: 12px;
 }
 .m-header li a {
     font-size: 14px;
     color: #000;
+    display: block;
+    padding-left: 27px;
+    background: url(../img/diamond_black.png) no-repeat 0 50%;
+}
+.m-header li:first-child a {
+    font-size: 14px;
+    color: #000;
+    display: block;
+    padding-left: 0;
+    background: none;
+}
+.m-header li a.active {
+    color:#aba9a7;
+}
+.manufacturers_n_goods {
+    width: 240px;
+}
+.manufacturers_n_goods label {
+    display: block;
+}
+.manufacturers_n_goods h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 
 /*Стили для футера*/
