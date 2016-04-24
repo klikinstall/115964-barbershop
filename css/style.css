@@ -28,7 +28,6 @@ p {
 .container {
     margin:0 auto;
     width: 942px;
-    outline: 1px solid red;
 }
 
 /*Стили для хэдера*/
@@ -43,8 +42,7 @@ p {
     line-height: 20px;
 }
 .main-navigation {
-    outline: 1px solid red;
-    width: 831px;
+    width: 630px;
 }
 .main-navigation,
 .main-navigation li,
@@ -63,6 +61,7 @@ p {
 }
 .user-block {
     margin-left: -4px;
+    float:right;
 }
 .user-block a {
     background: url(../img/enter_arrow.png) no-repeat 19px 50%;
@@ -84,14 +83,11 @@ main.container {
     width:100%;
     margin-top:19px;
     margin-bottom:64px;
-    outline: 1px solid red;
-
 }
 .features-item {
     width: 33%;
     text-align:center;
     color: #f7f4f1;
-    outline: 1px solid red;
     display: inline-block;
     vertical-align: top;
     margin-left: -4px;
@@ -252,7 +248,6 @@ main.container {
 }
 .footer-social {
     width:141px;
-    outline:1px solid red;
     text-align: center;
 }
 .footer-contacts {
