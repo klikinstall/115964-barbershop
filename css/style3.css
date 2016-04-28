@@ -30,6 +30,14 @@ figure {
     margin: 0;
     padding: 0;
 }
+h1 {
+    margin:0;
+    padding:0;
+}
+h2 {
+    margin:0;
+    padding:0;
+}
 .container {
     margin:0 auto;
     width: 942px;
@@ -85,147 +93,108 @@ figure {
 }
 
 /*Стили для мейна*/
-.main-content {
+.shop-item {
+    padding-top: 51px;
+    padding-bottom: 44px;
     background: url(../img/main_bg.jpg);
 }
-.main-content h1 {
-    margin:0;
-    padding:0;
-    padding-top: 50px;
-    margin-bottom:18px;
+.m-header h1{
     font-size: 30px;
+    margin-bottom:17px;
 }
-.m-header {
-    margin-bottom: 44px;
+.m-header ul {
+    margin-bottom: 53px;
 }
 .m-header li {
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
-    margin-right: 12px;
 }
-.m-header li a {
-    font-size: 14px;
-    color: #000;
-    display: block;
-    padding-left: 27px;
-    background: url(../img/diamond_black.png) no-repeat 0 50%;
-}
-.m-header li:first-child a {
-    font-size: 14px;
-    color: #000;
-    display: block;
-    padding-left: 0;
+.m-header li:first-child a{
+    padding-left:0;
     background: none;
 }
-.m-header li a.active {
-    color:#aba9a7;
-}
-.manufacturers_n_goods {
-    width: 240px;
-    display: inline-block;
-    vertical-align: top;
-}
-.manufacturers_n_goods label {
+.m-header li a {
     display: block;
-    margin-bottom: 17px;
+    background: url(../img/diamond_black.png) no-repeat 0 50%;
+    padding-left:25px;
+    padding-right: 15px;
     font-size: 14px;
-}
-.manufacturers_n_goods h3 {
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-.manufacturers_n_goods label+h3 {
-    margin-top: 48px;
-}
-.manufacturers_n_goods input {
-    margin-right: 20px;
-}
-.btn {
-    background-color: #000;
-    padding:12px 28px;
-    color: #fff;
-}
-button.btn {
-    margin-top: 27px;
-    font-size: 13px;
-}
-.goods_photos {
-    width: 702px;
-    display: inline-block;
-    margin-left: -5px;
-    vertical-align: top;
-    margin-top:8px;
-}
-.products {
-    float: left;
-    width:220px;
-    height:286px;
-    margin-right:20px;
-    background-color: #fff;
-    margin-bottom: 20px;
-}
-.products:nth-child(3n) {
-    margin-right: 0;
-}
-.products img {
-    margin-bottom: 6px;
-}
-.goods_photos b {
-    text-transform: none;
-    font-size: 14px;
-    line-height: 18px;
-}
-.goods_photos b span {
-    text-transform: uppercase;
-}
-.buy_area {
-    display: inline-block;
-    vertical-align: top;
-    height: 90px;
-    margin:0 16px;
-    font-size:14px;
-}
-.price {
-    background-color: #e5e5e5;
-    margin-top: auto;
-    margin-top: 13px;
-}
-.price p {
-    width:100px;
-    float:left;
-    margin:0;
-    padding-top: 9px;
-    text-align: center;
-}
-.price a {
-    display: inline-block;
-    vertical-align: top;
-    padding-left:20px;
-    padding-right:17px;
-    margin-left:auto;
-    float:right;
-}
-.paginator {
-    margin-bottom: 49px;
-}
-.paginator li {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 3px;
-}
-.paginator li a {
-    display: block;
-    width:43px;
-    height:32px;
-    padding: 0;
-    padding-top:11px;
-    vertical-align: bottom;
-    text-align: center;
-}
-.paginator li.active a {
     color: #000;
-    background-color: #fff;
+}
+.m-header li.active a {
+    color: #aba9a7;
+}
+.image-item {
+    float: left;
+    max-width:460px;
+}
+.photo1 {
+    margin-bottom: 16px;
+}
+.photo2,
+.photo3,
+.photo4 {
+    display: block;
+    width: 140px;
+    float:left;
+}
+.photo3 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.image-descr {
+    width: 392px;
+    float: left;
+    padding-left: 90px;
+    font-size: 14px;
+}
+.image-descr p,
+.image-descr span {
+    display: inline-block;
+}
+.image-descr span {
+    float: right;
+    color:#aeaeae;
+    margin-bottom:18px;
+}
+.image-descr p {
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+.image-descr .price {
+    background-color: #e5e5e5;
+    width: 187px;
+    height: 43px;
+    margin-bottom: 62px;
+}
+.image-descr .price em {
+    font-style: normal;
+    display: block;
+    float:left;
+    text-align: center;
+    width: 109px;
+    padding-top: 12px;
+}
+.image-descr .price a{
+    display: block;
+    float:left;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    width: 78px;
+    padding: 12px 0;
+}
+.image-descr h2 {
+    font-size: 24px;
+    margin-bottom: 29px;
+}
+.image-descr li {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    background: url(../img/diamond_black.png) no-repeat 0 50%;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 /*Стили для футера*/
